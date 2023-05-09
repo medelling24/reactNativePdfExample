@@ -31,7 +31,6 @@ export default class DocumentViewExample extends Component<Props> {
                             {
                                 text: ('Save changes'),
                                 onPress: () => {
-                                    debugger
                                     if(this.state.path.includes('.pdf')) {
                                         this._viewer.saveDocument()
                                     } else {
